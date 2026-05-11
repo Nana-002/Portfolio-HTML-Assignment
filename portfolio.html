@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- NAVBAR -->
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="list">
                 <li><a href="home">Home</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="work">Work</a></li>
@@ -20,22 +23,26 @@
     </header>
     
     <main>
-    <!-- HOME -->
-    <section id="home">
+    <!- - HOME -->
+    <section id="home" class="sect">
         <h1>Welcome to My Portfolio</h1>
         <p>Hello! I am a beginner web developer.</p>
     </section>
 
     <!-- ABOUT -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am currently learning how to use semantic HTML and building my first portfolio website.</p>
+    <section id="about" class="sect">
+        <h2 class="about">About Me</h2>
+        <p>I am currently learning how to use semantic HTML and building my first portfolio website. <br>
+            i'm Onize. A striving Muslimah, a graphic designer and a dedicated student web developer <br>
+            focused on creating efficient, responsive, engaging web solutions. <br>I'm always open to learning, 
+            sharing ideas, and working with others. Looking forward to connecting 
+            with you all. </p>
 
            <!-- WORK -->
-    <section id="work">
+    <section id="work" class="sect">
         <h2>My Work</h2>
         <!-- LIST -->
-        <ul>
+        <ul class="work-list">
             <li>Portfolio Website</li>
             <li>Graphic Designing</li>
             <li>Video Editing</li>
@@ -46,14 +53,13 @@
         <!-- JIMAGES AND VIDEO -->
         <h3>Sample Video</h3>
         <video width="300" controls src="Media/mine2.mp4" type="video/mp4"></video>
-        <h3>Some of my designs</h3>
         </section>
 
     <!-- RESUME -->
-    <section id="resume">
+    <section id="resume" class="sect">
         <h2>My Resume</h2>
         <!-- TABLE -->
-        <table border="1">
+        <table class="tab" border="5">
             <tr>
                 <th>Year</th>
                 <th>Education</th>
@@ -73,30 +79,30 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact">
+    <section id="contact" class="sect">
         <h2>Contact Me</h2>
         <!-- FORM -->
-        <form>
-            <label>Name:</label><br>
+        <form action="#" class="contact-form">
+            <label for="name">Name:</label><br>
             <input type="text" name="name" placeholder="Enter your full name"><br><br>
 
-            <label>Phone Number:</label><br>
+            <label for="number">Phone Number:</label><br>
             <input type="number" name="Telephone Number"><br><br>
 
-            <label>Email:</label><br>
+            <label for="email">Email:</label><br>
             <input type="email" name="email"><br><br>
 
             <label>Message:</label><br>
-            <textarea></textarea><br><br>
+            <textarea placeholder="Your message..."></textarea><br><br>
 
-            <input type="submit" value="Send">
+            <button type="submit">Send</button>
         </form>
     </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2026 My Portfolio</p>
+        <p class="port">© 2026 My Portfolio</p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,90 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #e4ddd3;
+    color: #f2efe7;
+}
+
+.navbar{
+background-color: #0a3625;
+padding: 15px;
+}
+
+.list{
+    text-align: center;
+    padding: 0;
+}
+
+.list li{
+    display: inline;
+    margin: 0 15px;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.list a:hover{
+    color: #00ffcc;
+}
+
+.sect{
+    background-color: #8b004a;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #00ffcc;
+    text-align: center;
+}
+
+.about{
+    font-weight: bold;
+    font-size: 35px;
+    color: #00ffcc;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 35px;
+    color: #00ffcc;
+}
+
+p{
+    font-size: 20px;
+    padding: 0;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.tab{
+    border-color: #00ffcc;
+    padding: 5px;
+}
+.contact-form{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #8b004a;
+    font-weight: bold;
+}
+
+button{
+    font-size: 20px;   
+}
+
+.port{
+    font-weight: bold;
+    color: #8b004a;
+}
+
+
+
+
